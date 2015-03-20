@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+# The details on each function is described below in the respective areas. Also the instruction on how to execute this program is detailed at the end of this program
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 
@@ -49,3 +48,8 @@ cacheSolve <- function(x, ...) {
     m
     
 }
+
+# This package can be tested by executing following commands:
+# d <- makeCacheMatrix(matrix(1:4,2,2))
+# where, the matrix elements or values in the matrix can be changed as per user's convenience
+# cacheSolve(d)
